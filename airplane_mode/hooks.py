@@ -5,6 +5,11 @@ app_description = "this app use for frappe airplane_mode"
 app_email = "kusumsinha23@navgurukul.org"
 app_license = "mit"
 
+
+website_route_rules = [
+    {'from_route': '/show-me', 'to_route': 'show_me'}
+]
+
 # Apps
 # ------------------
 
