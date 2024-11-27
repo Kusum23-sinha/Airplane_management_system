@@ -36,8 +36,8 @@ class AirplaneTicket(Document):
 		self.seat = f"{random_integer}{random_alphabet}"
 
 		random_integers = random.randint(1, 5)
-		random_alphabets = random.choice(['G'])
-		self.gate = f"{random_integers}{random_alphabets}"
+		random_alphabets = random.choice(['Gate'])
+		self.gate = f"{random_integers} {random_alphabets}"
 	
 
 
