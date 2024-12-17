@@ -9,7 +9,6 @@ frappe.ui.form.on('Airline', {
             });
         }
     },
-
     on_load: function(frm) {
         // Check if the website field is not empty
         if (frm.doc.website) {
