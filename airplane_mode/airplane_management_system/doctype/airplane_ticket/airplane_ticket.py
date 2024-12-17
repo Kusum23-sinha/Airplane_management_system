@@ -47,9 +47,4 @@ class AirplaneTicket(Document):
 		if total_tickets >= airplane.capacity:
 			frappe.throw(f"Cannot issue more tickets! Airplane capacity of {airplane.capacity} is full.")
 
-	# def before_insert(self):
-		# random_integer = random.randint(1, 5)
-		# random_alphabet = random.choice(['G'])
-		# self.gate = f"{random_integer}{random_alphabet}"
 	
-		
