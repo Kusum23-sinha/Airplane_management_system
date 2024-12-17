@@ -149,6 +149,12 @@ website_route_rules = [
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events = {
+    "Shop": {
+        "on_update": "airplane_mode.api.update_shop_counts"
+    }
+}
+
 
 # Scheduled Tasks
 # ---------------

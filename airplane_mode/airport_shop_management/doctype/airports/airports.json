@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "autoname": "format: {location}",
+ "creation": "2024-11-05 17:24:11.821455",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "airport_name",
+  "location",
+  "total_shops",
+  "occupied_shops",
+  "available_shops"
+ ],
+ "fields": [
+  {
+   "fieldname": "airport_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Airport Name",
+   "options": "Airport",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_shops",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Shops",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "occupied_shops",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Occupied Shops",
+   "non_negative": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "available_shops",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Available Shops",
+   "non_negative": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-12-13 22:22:18.290798",
+ "modified_by": "Administrator",
+ "module": "airport shop management",
+ "name": "Airports",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "airport_name"
+}
